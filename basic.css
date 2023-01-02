@@ -1,0 +1,32 @@
+h1{
+  color: darkcyan;
+  border: 2px solid hsl(0,100%, 50%);
+  background-attachment: fixed;
+  border-width: 5px;
+  border-style: solid;
+  border-color: red green yellow blueviolet;
+  margin-left: 25px;
+  padding-left: 30px;
+  outline-style: dotted;
+  outline-color: coral;
+  text-align: center;
+  text-decoration-line: overline underline;
+  text-decoration: wavy;
+  position: static;
+
+  }
+}
+h2{
+  background-color: dodgerblue;
+  opacity: 0.3;
+}
+
+p.intro::first-letter{
+  color: crimson;
+  font-size: 350%;
+  opacity: 0.5;
+}
+p::first-line{
+  color: aqua;
+  font-variant: small-caps;
+}
